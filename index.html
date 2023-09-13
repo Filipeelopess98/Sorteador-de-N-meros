@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Assent/Icon-aba.ico" type="image/x-icon">
+    <title>Sorteador de Números</title>
+</head>
+<body>
+
+    <img class="fundo" src="Assent/fundo1.jpg" alt="fundo">
+    <img class="logo" src="Assent/dado animado.gif">
+    <div class="container" >
+
+    <h1 class="title">SORTEADOR DE NÚMEROS</h1>
+
+
+   <div class="container2">
+    <h2 class="subtitle">DIGITE UM NÚMERO</h2>
+    <input class="inputmin" id="input-min" type="number">
+        <input class="inputmax" id="input-max"  type="number">
+    </div>
+
+    <h4 class="result-text" class="result-text">O NÚMERO SORTEADO É </h4>
+
+    <div class="input-button">
+<p id="result" > </p>
+      <button id="button" onclick="generatenumbers()">SORTEAR AGORA</button>
+    </div>
+           
+    
+</body>
+<script src="script.js" ></script>
+</html>
