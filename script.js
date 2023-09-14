@@ -10,7 +10,7 @@
         const resultnumber = Math.floor(Math.random() * (inputmax - inputmin) + inputmin);
        
         if (inputmin >= inputmax) {
-            alert("Por favor preencha os números que vão ser sorteados")  
+            alert("Preencha os números que vão ser sorteados")  
         
         }else{
         result.innerHTML = resultnumber

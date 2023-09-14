@@ -32,7 +32,7 @@
 .title {
 
     color: rgb(223, 8, 8);
-    font-size: 33px;
+    font-size: 35px;
     text-align: center;
     font-weight: 800;
     margin-top: 115px;
@@ -43,7 +43,7 @@
 .result-text {
 
     color: rgb(223, 8, 8);
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 15px;
     font-weight: 700;
     text-align: center;
@@ -114,7 +114,7 @@
     border: none;
     border-radius: 22px;
     color: rgba(255, 255, 255, 0.925);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     align-items: center;
     display: block;
