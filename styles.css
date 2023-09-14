@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     outline: none;
 }
 
@@ -11,8 +11,7 @@
     margin-top: -758px;
     text-align: center
 }
-
-   
+  
 
 .fundo {
     width: 99vw;
@@ -23,7 +22,7 @@
 .logo {
 
     position: absolute;
-    width: 236px;
+    width: 240px;
     margin-top: -880px;
     display: block;
     margin-left: 850px;
@@ -31,59 +30,34 @@
 }
 
 
-
 .title {
 
     color: rgb(223, 8, 8);
-    font-size: 39 px;
+    font-size: 33px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
     margin-top: 115px;
+    font-weight: 700;
 }
  
     
-.subtitle {
-    color: rgb(223, 8, 8);
-    font-size: 19px;
-    margin-top: 19px;
-    font-weight: 700;
-    margin-top: 234px;
-    text-align: center;
-
-}
-
-
-#result {
-
-    width: 207px;
-    height: 136px;
-    color: rgb(223, 8, 8);
-    font-size: 100px;
-    font-weight: 700;
-    margin-left: 848px;
-    margin-top: 26px;
-
-
-}
-
-
 .result-text {
 
     color: rgb(223, 8, 8);
-    font-size: 20px;
-    margin-top: -306px;
-    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 700;
     text-align: center;
-
+    font-weight: 700;
+    
 }
 
 
-
 .inputmin {
-    
+
     margin-top: 30px;
-    width: 172px;
-    height: 71px;
+    width: 155px;
+    height: 65px;
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     box-shadow: 0px 15px 30px 0px rgb(192, 24, 24);
@@ -94,61 +68,131 @@
     font-size: 30px;
     align-items: center;
     margin-left: 17px;
-    gap:  10px;
-    margin-top: 10px;
-    font-weight: 700;
+    margin-top: 8px;
+    font-weight: 600;
     
 }
 
 .inputmax {
-    margin: 16px;
-    width: 172px;
-    height: 71px;
+
+    margin: 20px;
+    width: 155px;
+    height: 65px;
     border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     box-shadow: 0px 15px 30px 0px rgb(192, 24, 24);
     background: #fffefeda;
     justify-content: space-between;
     color: rgb(223, 8, 8);
-    text-align: center;
     font-size: 30px;
     align-items: center;
-    margin-top: 10px;
-    font-weight: 700;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
 
 }
+
+
+
+.e{
+    text-align: center;
+    color: rgb(226, 23, 23);
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 29px;
+    font-weight: 600;
+}
+
+
 
 #button {
     
-    position: absolute;
-    margin-top: 145px;
-    width: 232px;
+    width: 225px;
     height: 70px;
-    background: rgb(223, 8, 8);
-    box-shadow: rgba(226, 43, 43, 0.87) 0px 18px 40px 0px;
+    background: rgb(226, 23, 23);
+    box-shadow:  rgb(196, 52, 52) 0px 18px 40px 0px;
     border: none;
     border-radius: 19px;
     color: rgba(255, 255, 255, 0.925);
-    font-size: 22px;
-    font-weight: 700;
-    margin-left: -116px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    display: block;
+    margin-top: 5px;
 
 }
 
 
-
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px; 
+}
 
     
 .container2 {
-     align-items: center;
-     margin-top: 22px;
+    position: absolute;
+    margin-left: 700px;
 }
 
 
+.buttonsort {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 8px;
+}
+
+.digite {
+ text-align: center;
+ margin-top: 100px;
+}
 
 
 #button:active {
     opacity: 0.6;
 }
-
      
+.resultadodosorteio {
+    text-align: center;
+    color:rgb(226, 23, 23);
+    font-weight: 700;
+    font-size: 120px;
+    padding-top: 10px;
+    text-shadow: 10px 10px 10px rgba(167, 166, 166, 0.863);
+    cursor: pointer;
+   
+}
+
+.h2 {
+    color:rgb(226, 23, 23);
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: -35px;
+    font-weight: 600;
+}
+
+.inputmax:focus{
+    border-color:rgb(226, 23, 23);
+}
+
+.inputmin:focus{
+    border-color:rgb(226, 23, 23);
+}
+    
+.Filipe {
+    color:rgb(226, 23, 23);
+    text-align: center;
+    margin-top: 65px;
+    font-weight: 500;
+}
+
+
+#result:hover{
+    opacity: 0.5;
+}
+
+

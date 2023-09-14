@@ -7,13 +7,13 @@
         const inputmin = Math.ceil(document.querySelector(".inputmin").value)
         const inputmax= Math.floor(document.querySelector(".inputmax").value)
 
-        const result = Math.floor(Math.random() * (inputmax - inputmin) + inputmin);
+        const resultnumber = Math.floor(Math.random() * (inputmax - inputmin) + inputmin);
        
         if (inputmin >= inputmax) {
-            alert("O Primeiro número tem que ser menor que do segundo!")  
+            alert("Por favor preencha os números que vão ser sorteados")  
         
         }else{
-        result.innerHTML = result
+        result.innerHTML = resultnumber
         }
 
     }
