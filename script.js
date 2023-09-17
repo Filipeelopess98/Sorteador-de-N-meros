@@ -9,12 +9,14 @@
 
         const resultnumber = Math.floor(Math.random() * (inputmax - inputmin) + inputmin);
        
-        if (inputmin >= inputmax) {
-            alert("Preencha os números que vão ser sorteados")  
-        
+        if (inputmin > inputmax) {
+            alert("O valor minimo precisa ser menor que o máximo!")  
+ 
         }else{
         result.innerHTML = resultnumber
         }
 
+
     }
 
+   

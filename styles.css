@@ -14,8 +14,9 @@
   
 
 .fundo {
-    width: 99vw;
-    height: 99vh;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 
@@ -37,6 +38,7 @@
     font-weight: 800;
     margin-top: 115px;
     font-weight: 700;
+    box-shadow: 2px 15px 30px 2px rgb(192, 191, 191);
 }
  
     
@@ -185,7 +187,7 @@
 .Filipe {
     color: rgb(255 255 255);
     text-align: center;
-    margin-top: 107px;
+    margin-top: 120px;
     font-weight: 500;
     font-size: 15px;
 
