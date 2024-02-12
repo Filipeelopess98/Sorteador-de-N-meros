@@ -1,7 +1,7 @@
 <h1> Sorteador de números </h1>
-<h2>O projeto de sorteador de números é uma aplicação que tem como objetivo gerar números aleatório para diversos fins, por exemplo sorteios de prêmios e entre outros. </h2>
+<h4>O projeto sorteador de números é uma aplicação que tem como objetivo gerar números aleatórios para diversos fins. </h4>
 <br>
-<h3> Nesse projeto foi utilizado as seguintes tecnologias  </h3>
+<p> Nesse projeto utilizei as seguintes tecnologias  </p>
 <br>
 
 - <img src= "https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt=logo-html />
